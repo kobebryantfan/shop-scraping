@@ -75,7 +75,8 @@ def verificar_precos():
     pagina.append(['Memória RAM 8GB 1866MHz', valor_ram])
     pagina.append(['SSD 512GB', valor_ssd])
     pagina.append(['Fonte Gamemax 650w', valor_fonte])
-
+    book.save('Planilha.xlsx')
+    
     print('Processo de escritura na Planilha concluído.')
     navegador.close()
 
